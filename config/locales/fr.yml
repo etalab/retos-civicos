@@ -1,0 +1,939 @@
+es:
+  flash:
+    evaluation:
+      evaluation_removed_successfully_from_the_challenge: On a pu éliminer l’évaluation de manière satisfaisante.
+      there_was_an_issue_removing_the_evaluation_from_the_challenge: Il y avait une erreur lorsque l’on s’emploie à corriger l’évaluation.
+    judge:
+      user_cannot_be_added_as_a_judge: L’utilisateur ne peut pas être agrégés car son courrier appartient à un membre ou une organisation.
+      does_not_exist: L’utilisateur n’existe pas encore, pour créer un compte.
+      saved_successfully: Le juge a été invité de manière satisfaisante.
+      added_succesfully_for_this_challenge: Le juge a été invité à évaluer le défi.
+      evaluation_already_exists_for_this_challenge: Le juge a déjà été invité au préalable évaluer le défi.
+      criteria_has_not_been_set_for_this_challenge: Les critères n’ont pas encore été mis à jour par l’administrateur du défi. Pour de plus amples informations,% email {}.
+    mailers:
+      create:
+        notice: Le courrier a été envoyé avec succès.
+        alert: Vérifie que vous avez rempli tous les champs.
+    admins:
+      organizations:
+        accredited: Organisation établie correctement. Recevront un message de confirmation.
+    base:
+      select-winner: Le défi% {title} a besoin de sélectionner un lauréat. Voyez-vous% {LINK}.
+    organizations:
+      updated: Profil de l’organisation correctement mise à jour.
+      welcome_new_subscriber: Merci pour suscribirte! Te les promesses de bonnes nouvelles, non spam.
+      repeated_subscriber: Courrier déjà enregistré. Veuillez essayez autre
+      send: Votre message a été envoyé
+      long_message: Merci de votre message limité à 300 caractères
+    members:
+      updated: Prêt à participer!
+    users:
+      welcome_and_edit_profile: Nous vous souhaitons la bienvenue! Édite votre profil avant de s’engager.
+      updated: L’information est enregistrée.
+      error: L’information n’est enregistrée.
+    entries:
+      phase_due: Le temps pour éditer c’était déjà la proposition. L’enjeu est en phase de sélection.
+      updated_successfully: La proposition a été publié correctement.
+      accepted_successfully: La proposition a été acceptée de manière satisfaisante
+      marked_as_invalid_successfully: "la proposition "%{name}" a été marquée invalide."
+      mark_entry_as_invalid_failed: La proposition n’a pas été identifiée comme invalide en raison de l’absence d’une raison.
+      marked_as_valid_successfully: "la proposition "%{name}" a été marquée en bonne et due forme."
+      winner_selected_successfully: "la proposition "%{name}" a été sélectionnée lauréate."
+      winner_removed_successfully: Cette proposition a été enlevée le statut de lauréate correctement.
+      no_more_than_3_winners: Dans un défi qu’il est possible de sélectionner jusqu’à 3 lauréats
+    unauthorized:
+      message: Vous devez d’abord vous connecter
+      already_submited_app: Vous avez déjà envoyé votre application à ce défi
+      entries_not_accepted: "Le défi n’accepte plus de nouvelles propositions."
+    challenges:
+      criteria:
+        critieria_has_not_been_defined_yet: Les critères n’ont pas encore été définis, vous pouvez les enregistrent depuis le tableau d’actions.
+        criteria_successfully_defined: Les critères ont été mis à jour correctement.
+        please_check_that_all_criteria_fields_for_any_errors: Veuillez révise que tous les champs ont été remplis correctement et que la somme de leurs pondérations soit 100.
+      evaluation:
+        evaluation_successfully_closed: L’évaluation a été fermée de manière satisfaisante.
+        evaluation_could_not_be_closed: L’évaluation n’a pu être clos.
+        evaluation_has_been_closed: Les évaluations de ce défi sont fermées. Il ne peut modifier les notations.
+  projects:
+    add: Ajouter du projet
+    create: Créer un projet
+    description: Description
+    edit: Modifier
+    no_projects_exist: Il n’existe pas actuellement de projets.
+    successfully_created: Projet mise en place avec succès
+    tags: Tags
+    title: Titre
+    update: Projet de mettre à jour
+  brigades:
+    brigades: Brigades
+    zip_code: Code postal
+    city: Ville
+    state: État
+    location: Emplacement
+    description: Description
+    calendar_url: URL du calendrier
+    slack_url: URL du
+    github_url: Github d’URL
+    facebook_url: URL de Facebook
+    twitter_url: URL de Twitter
+    header_image_url: URL de l’image de profil
+    member: Membre
+    founded: Depuis
+    follow:
+      follow: Rejoindre
+      unfollow: Laisser
+    index:
+      no_brigades_match_search: Il n’y a pas de brigades qui coïncident avec la recherche.
+      no_brigades_exist: Il n’existe pas actuellement de brigades.
+      create_brigade: © établit une brigade dans votre ville!
+      dont_see_desired_brigade: N’est-ce pas ves une brigade près de chez toi?
+    no_members: Pensons d’abord à le rejoindre!
+    show:
+      search: Recherche
+      see_more: Plus
+      project: Projet
+      stats:
+        statistics: Statistiques
+        created: Bien-fondé
+        projects: Projets
+      members:
+        organizer: Organisateur
+        brigade: Brigade
+        in_common: en commun
+        see_all_members: Voir tous les membres
+        member_since: Membre
+      events:
+        next_event: Prochain évènement
+        rsvp: Réserver
+        not_going: Nous n’allons pas
+        people_going: personnes van
+        person_going: personne va
+        be_first_rsvp: Je sais le premier à confirmer leur présence.
+        to: à
+        export: exporter
+        event: Événement
+      projects:
+        stop_contributing: Laisser
+        contribute: Contribuer
+        contributor: Contribuable
+    form:
+      zip_code: Code postal
+      city: Ville
+      state: État
+      description: Description
+      calendar_url: URL du calendrier
+      slack_url: URL du
+      github_url: Github d’URL
+      facebook_url: URL de Facebook
+      twitter_url: URL de Twitter
+      header_image_url: URL de l’image de profil
+    new:
+      header: Créer Brigade
+      submit: Créer
+      success: Brigade a été créée avec succès par la suite.
+    edit:
+      header: Éditer Brigade
+      submit: Modifier
+      success: Brigade a été mise à jour avec succès.
+  challenges:
+    initial_activity:
+      title: Création du défi
+      text: Publication du défi en codeando Mexique
+    index:
+      header: Défis
+      new_challenge: Nouveau défi
+      active: Actifs
+      inactive: Conclus
+      popular: Populaire
+      recent: Nouveau
+      main_index_header: Démocratiser les dépenses publiques pour l’innovation numérique
+    like: J’aime
+    send_newsletter:
+      header: Envoyer une newsletter
+      newsletter_subject: Intitulé du poste
+      newsletter_subject-description: Tapez un peu courte décrivant la raison de ce message à tous les membres de votre problème.
+      newsletter_body: Corps du message
+      newsletter_body-description: Vous pouvez envoyer votre communiqué en détail ici.
+      submit: Envoyer Newsletter
+    tab:
+      collaborators: Associé
+      references: Référence
+      datasets: Dataset
+      entries: APB
+    collaborators:
+      collaborators: Collaborateurs
+      non-collaboration: N’hésitez pas. Je sais le premier à collaborer pour répondre à ce défi.
+    references:
+      non-references: Sans références.
+    resources:
+      collaborators: Participants
+      datasets: Datasets
+      non-collaboration: N’hésitez pas. Je sais le premier à collaborer pour répondre à ce défi.
+      references: Références
+      votes: Voix
+    datasets:
+      non-datasets: Il n’existe pour l’instant aucun datasets.
+    entries:
+      non-entries: "Je sais le premier à participer à ce défi. %{LINK}."
+      repo: Repo
+      idea: Proposition
+    challenge_actions:
+      edit-prototype: "prototype’ éditer
+      send-prototype: "prototype’ envoyer
+    show:
+      description-title: "Le défi"
+      challenge-description: "Description du défi"
+      datasets-title: "données"
+      phases: "étapes"
+      supportus: Aidez-nous à atteindre notre objectif
+      show-more: Afficher plus
+      edit-challenge: "éditer défi"
+      total-number-of-entries:
+        one: "%{count} propositions reçues"
+        other: "Nous sommes en évaluant et en sélectionnant les %{count} idées reçues"
+      edit-prototype: "prototype éditer"
+      send-prototype: "prototype envoyer"
+      has_not_started: "n’a pas commencé"
+      has_finished: "FIN"
+      days-left-to-finish:
+        zero: "dernier jour"
+        one: "Il est<strong> 1 jour</strong> "
+        other: "Sont<strong> % Count {} jours</strong> "
+    finalists_and_winner:
+      winner: Lauréat
+      winners: Lauréats
+      finalists: Les autres lauréats
+    ideas_finalists:
+      finalists: Les autres lauréats
+      about_the_team: Sur l’équipement
+    challenge:
+      number-of-collaborators: "% Count {} participants"
+      collaborate: Participez!
+    comments:
+      order_by: "
+      vote_count: Voix
+      most_recent: Nouveau
+      comment: Créer commentaire
+      non-comments: "À l’heure actuelle il n’y a pas des commentaires."
+      reply: Réaction
+      mychallenge: Notre défi
+      like: J’aime
+      cancel: Annuler
+    collaborating: Merci de votre proposition. Vous pourrez la publier jusqu’à la clôture du défi.
+    collaborating_error: Une erreur est survenue, inténtalo de nouveau plus tard
+    status:
+      open: Ouverte
+      working_on: En développement
+      finished: Achevé
+      cancelled: Annulé
+  pages:
+    index:
+      pitch: Organisations geeks, Open Data, et 24 heures par jour.
+      get_involved: Involúcrate
+      recent: Défis récents
+      citizens: Citoyenneté
+      designers: Concepteurs
+      government: Gouvernement
+      hackers: Hackers
+    about:
+      title: Sur codeando Mexique
+      # info: Codeando Mexique est une stratégie de coordination de la stratégie numérique nationale qui invitera les entrepreneurs et innovateurs du pays à proposer et à mettre au point des solutions aux problèmes du gouvernement fédéral. De cette manière, nous cherchons à résoudre plusieurs problèmes publics et que les locaux de gouvernement ouvrent leurs processus d’innovation civique pour générer l’ouverture des données et la mise en place d’un écosystème d’entrepreneurs civiques.
+      download: TÉLÉCHARGER LE DOCUMENT
+  layout:
+    civic_challenges: Défis civiques
+    header: Codeando Mexique
+    copyright: "&copy; Codeando Mexique — 2014"
+    question: "qu’est-ce que codeando Mexique?"
+    brief: Une plateforme réunissant les talents pour résoudre des problématiques de l’impact social.
+    about: À propos
+    sign_in: Connexion
+    sign_out: Quitter
+    # index_link: Ouverture
+    # welcome: Bonjour
+    # description: "Si vous êtes un entrepreneur résilie un défi du gouvernement fédéral, participe à retos.gob.mx"
+  terms_of_service: Termes de service
+  signup:
+    choose_provider: Sélectionnez l’un des services suivants pour vous connecter
+    with_github: Lancé github
+    with_twitter: Ouvre sur Twitter
+    with_linkedin: Ouvre sur LinkedIn
+    with_facebook: Ouvre sur Facebook
+    with_email: Déclenchée par email
+    register_with_email: Enregistrement au courrier électronique
+    login: Connexion
+  app_controller:
+    login_required: Agréments nécessaires pour démarrer
+  auth_controller:
+    destroy: Vous avez quitté de façon satisfaisante
+    failure: Accès non autorisé, tente de nouveau
+    new_auth: Nouvelle authentification créée
+    sign_in: Bienvenue sur codeando Mexique
+  omniauth_controller:
+    new_auth: Nouvelle authentification créée
+    failure: Accès non autorisé, tente de nouveau
+    last_step: 
+    welcome_back: Iniciaste session correctement avec% Provider {}. Nous vous souhaitons la bienvenue!
+    confirm_email: Confirme votre courrier avant d’entamer votre participation
+  comments:
+    commented: Nous vous remercions pour vos commentaires
+    failure: Tente de nouveau
+    voted: Ta voix a été enregistrée
+    comment:
+      reply: "répondre"
+      cancel: Annuler
+    truncate:
+      less: Masquer
+      more: Voir complet
+  dashboard:
+    base:
+      challenges_filter:
+        challenge: Défi
+        go-to-challenge-public-view: Aller en audience publique du défi
+      entry_status:
+        entry-accepted: Accepté
+        entry-winner: LAURÉAT
+        entry-invalid: Invalide
+    show:
+      total-participants: Participants
+      total-entries: Propositions reçues
+      latest-entries: Dernières propositions reçues
+      company-name: Entreprise
+      link-to-project: Le projet LINK
+      challenge-name: Défi
+      no-proposals: Il n’y avait pas encore de propositions.
+      no-challenges: Il n’y a pas de défis actifs.
+    challenges:
+      index:
+        new-challenge: Nouveau défi
+        launch-date: Date de lancement
+        status: Status
+        total-participants: Participants
+        total-entries: Propositions reçues
+        no-proposals: Il n’y avait pas encore de propositions.
+        challenge_title: Nom du défi
+        members_vs_entries: Participants et propositions
+        phase: Phase
+        actions: Actions
+        no-challenges: Il n’y a pas de problèmes.
+      new_criteria:
+        instructions: Instructions aux juges
+        criteria: Critère
+        save_criteria: Sauvegarder
+        criteria_description: Description du critère
+        value_description: Valeur entre 1 et 100
+      new:
+        header: Nouveau défi
+      edit:
+        header: Éditer défi
+      form:
+        title: Titre de votre problème
+        pitch: Le défi
+        pitch-description: Elle écrit en un seul énoncé une phrase qui décrit le défi
+        avatar: Image
+        avatar-description: Nous vous conseillons de sélectionner une image ayant un impact sur les personnes et qui concerne la problematica à résoudre.
+        about: Brève description
+        about-description: Décrit brièvement que traite le défi
+        status: État actuel du défi
+        prize-description: Décrit le prix en format markdown
+        entry-template-url: Proposition de tableau link
+        entry-template-url-description: Link de personnel d’appui pour les participants à l’envoi de sa proposition.
+        assessment-methodology: Méthode d’évaluation
+        assessment-methodology-description: Link de méthodologie d’évaluation
+        needs: Besoins du défi
+        challenge-description: "Description du défi"
+        points: Points clés
+        points-description: Sur la base de ce qui est décrit ci-dessus, est chargé de rédiger les points clés sur vos besoins actuels. Vous devez être bref.
+        point: "point% {number} (facultatif)"
+        additional_links: Références
+        additional_links-description: "partage certaines ligues vers des sites web présentant des solutions similaires à votre problème, un recours visant à inspirer les contributeurs ou les données qui concourent au développement du défi.
+   <br/> Nota: Les ligues s’écrivent qu’une liste de liens en format markdown."
+        additional_links-placeholder: Séparés par des virgules
+        infographic: "infographie"
+        dataset_id: Datasets
+        dataset_id-description: /catalogo.datos.gob.mx/
+        activities: Activités et actualités
+        activities-description: Événements significatifs du défi
+        activities-title: Titre
+        submit: Publier
+        description: "Quel est le problème à affronter?"
+        description-description: Qui explique que le problème a été pris et rappeler l’importance de résoudre ce problème.
+        comments: Commentaires
+        resources: Données et ressources
+        created-by: Lance
+        welcome_mail: Message de bienvenue
+        welcome_mail_subject: Intitulé du poste
+        welcome_mail_subject-description: Objet du courriel. Tapez un peu courte pour
+          llamar su atención
+        welcome_mail_body: attire votre attention
+        welcome_mail_body-description: Corps du message
+        dataset_hint_text: Vous pouvez envoyer les instructions et suivants
+        dataset_no_results_text: Étapes du défi. Toutes les informations utiles.
+        dataset_searching_text: Tapez un mot de recherche
+        phases: Aucun résultat
+    mailers:
+      new:
+        view-title: RECHERCHE...
+        view-subtitle: Étapes
+      participants:
+        view-title: Participants
+        view-subtitle: Envoyer courrier électronique aux participants
+      finalists:
+        view-title: Participants
+        view-subtitle: Envoyer courrier électronique des participants par proposition
+        representative-header: Participants
+        email: Envoyer courrier électronique à finalistes
+        company-header: Représentant
+        link-to-proyect-header: Courrier
+        entry: Entreprise
+        include-in-email-header: Le projet LINK
+      email_form:
+        mail-subject-label: Proposition
+        mail-body-label: Vous inscrire à email?
+        mail-body-helper: Intitulé du poste
+        submit: Corps du message
+    entries:
+      index:
+        entries-title: Vous pouvez utiliser markdown pour formater le message.
+        to-csv: Envoyer
+        company-name: Propositions
+        link-to-project: Exportation CSV
+        technologies: Entreprise
+        public: Le projet LINK
+        sent-date: Technologies
+        no-proposals: Publique
+        entry-email: Date d’envoi
+        email-participants: Il n’y avait pas encore de propositions.
+        entry_invalid: Email
+        legal_representative: Courrier électronique aux participants
+        entry_name: Invalide
+        submitted_date: Représentant légal
+        actions: Nom
+        final_score: Date de livraison
+      show:
+        accept-proposal: Actions
+        move-next-phase: Notation
+        select-winner: Sélectionner comme finaliste
+        select-winner-confirmation: "Est-ce que nous avons sélectionné comme finaliste de% {} member?"
+        remove-winner: Sélectionner comme lauréat
+        remove-winner-confirmation: Êtes-vous sûr de faire cette proposition la gagnante du défi?
+        go-back: En tant que lauréat enlever
+        solve-challenge: Êtes-vous sûr de retirer cette proposition comme la gagnante du défi?
+        company-name: "< revenir aux propositions de% {title}"
+        entry-email: Comment résoudre le défi?
+        company-rfc: Entreprise
+        company-proposal: Email
+        technology: RFC de l’entreprise
+        received-on: Proposition
+        repo-url: Technologies
+        demo-url: Date de reception.
+      mark_entry_as_valid_or_invalid:
+        reasons: URL du registre
+        mark_as_invalid: URL du DEMO
+        cancel: Spécifique ici la raison.
+        mark_as_valid: Cocher invalide
+        confirm_mark_invalid: Annuler
+        confirm_mark_valid: Cocher valable
+      visit_or_publish_entry:
+        go-to-public: Êtes-vous sûr de vouloir marquer cette entrée comme invalide?
+        make-public: Êtes-vous sûr de vouloir marquer cette entrée comme valable?
+        confirm-make-public: Voir audience publique
+      no_challenge:
+        proposals: Rendre publique
+        no-published-challenges: Êtes-vous sûr de rendre publique cette proposition?
+    collaborators:
+      index:
+        export-csv: Propositions
+        email-everyone: Des défis non encore publiés.
+        email-finalists: Exportation CSV
+        id: L’envoi email à tous
+        company-name: Envoyer courrier électronique à finalistes
+        email: ID
+        name: Entreprise
+        signup-date: Email
+        no-collaborators: Nom
+      no_challenge:
+        no-challenges: Date d’enregistrement
+    evaluations:
+      show:
+        title: Il n’y avait pas encore de participants à ce défi.
+        read_challenge_information: Des défis non encore publiés.
+        read_entries_information: 
+        evaluate_a_challenge: "lecture" aux informations du défi"
+        footer_caption: "lecture" aux informations des propositions du défi"
+        submit: "évaluer un défi"
+        cancel: "En acceptant que vous êtes en octroyant des permis susmentionnés au juge."
+        challenges: J’accepte
+      new:
+        title: Annuler
+      form:
+        email: Défis sur lesquels le juge participe actuellement
+        submit: Inviter juge à l’évaluation
+    judges:
+      show_evaluations_summary:
+        evaluation_committee: Courrier électronique
+        email: Invitation
+        name: Comité d’évaluation
+        evaluation_status: Courrier électronique
+        actions: Nom
+      index:
+        no_judges: Statut d’évaluation
+        new_judge: Actions
+        define_criteria: Il n’y a pas de juges enregistrés
+        no_criteria_has_been_defined_for_this_challenge: Agréger juge
+        no_judges_have_been_selected_to_evaluate_this_challenge: Critères d’évaluation
+        close_evaluation: Les critères n’ont pas encore été définis à ce défi.
+        close_evaluation_confirmation_message: Le jury n’a pas été sélectionné pour évaluer le défi.
+        export_csv: Fermer évaluations
+      show:
+        no_report_cards_available_for_this_evaluation: Êtes-vous sûr? Les juges ne peuvent modifier leurs évaluations à ce défi.
+      edit:
+        title: Exportation CSV
+      request_permission_for_challenge:
+        title: Il n’y avait pas encore de notations par ce jury.
+        read_challenge_information: Profil
+        read_entries_information: 
+        evaluate_a_challenge: "lecture" aux informations du défi"
+        footer_caption: "lecture" aux informations des propositions du défi"
+        submit: "évaluer un défi"
+        cancel: "En acceptant que vous êtes en octroyant des permis susmentionnés au juge."
+      form:
+        name: J’accepte
+        email: Annuler
+        company_name: Nom
+        email-description: Courrier électronique
+        bio-description: Entreprise
+        submit: Courriel de la personne avec laquelle nous sommes en contact
+    report_cards:
+      index:
+        we_cannot_show_rankings_until_all_judges_have_evaluated_the_entries: Háblanos un peu plus sur votre organisation, comprend des liens vers les applications, votre portefeuille ou autre que vous estimez que nous devons connaître
+        no_criteria_has_been_defined_for_this_challenge: Agréger juge
+        no_judges_have_been_selected_to_evaluate_this_challenge: Nous ne pouvons pas faire apparaître le classement jusqu’à ce que tous les juges ont fini d’évaluer les entrées.
+        not_all_judges_are_finished_evaluating: Les critères n’ont pas encore été définis à ce défi.
+      show:
+        criteria_name: Le jury n’a pas été sélectionné pour évaluer le défi.
+        score_assigned: Il reste que les juges n’ont pas évalué toutes les entrées, les palmarès et résultats peuvent changer plus de juges en vertu de l’achèvement de l’évaluation.
+        total: Critère
+  evaluations:
+    mailer:
+      a_judge_has_finished_evaluating_a_challenge: Notation (juge/Max/normalisée)
+    status:
+      has_not_started: Total
+      still_evaluating: % {} Challenge".
+      finished: N’a pas commencé
+    index:
+      number_of_evaluated_entries: % entries_evaluated {} de% total_entries {}"
+      no_evaluation_criteria: Terminée
+      there_are_no_entries_to_evaluate_for_this_challenge: %{n}umber_of_entries {}"
+      previous_entry: N’ont pas défini les critères d’évaluation pour ce défi.
+      next_entry: On n’a pas trouvé de tickets pour évaluer à ce défi.
+      instructions_popover_title: Précédent
+    edit:
+      new_evaluation: Suivant
+    form:
+      evaluation_file: Considérations lors de l’évaluation des propositions
+      submit: Évaluer
+    evaluation_criteria:
+      value_description: Classement des résultats
+      save_criteria: Envoyer
+      evaluate_the_entry: 0-5
+      comments_label: Évaluer
+      comments_description: Évaluation
+      feedback_label: Commentaires
+      feedback_description: "commentaires positifs ou générales"
+    entry_minimum:
+      entry_name: "retour d’information"
+      entry_description: "domaines d’opportunité"
+      entry_email: Nom
+      link_to_project: Description
+      technologies: Courrier électronique
+      received_on: Ligue au projet
+      summary: Technologies
+    no_challenge:
+      no_challenges: Reçues
+  report_cards:
+    there_was_an_error_while_saving_the_evaluation: Résumé de la proposition
+    evaluation_has_been_saved_successfully: Vous n’avez pas défis alloués
+    evaluation_has_been_saved_successfully_go_to_next: Une erreur s’est glissée lors de la sauvegarde de votre évaluation.
+  users:
+    welcome_new_org: L’évaluation de cette entrée a été sauvegardée de façon satisfaisante.
+    form:
+      name: L’évaluation de cette entrée a été sauvegardée de façon satisfaisante. <a href="%{href}">Évalue la suivante.</a>
+      email: 
+      bio: Nom
+      bio-description: Courrier électronique
+      avatar: Bio
+      avatar-description: "sur 140 caractères
+      submit: Avatar
+    define_role:
+      complete_register: Vous aurez ainsi l’image de profil.
+  organizations:
+    edit:
+      title: Actualiser
+    form:
+      submit: Terminer l’enregistrement
+      to_challenge_creation: Profil de l’organisation
+      name: Actualiser
+      email: Prêt! Le premier défi à créer
+      bio: Nom de l’organisation
+      bio-description: Email
+      email-description: Description
+      slug-description: 140 caractères sur l’organisation
+      avatar: Courriel de la personne avec laquelle nous sommes en contact
+    show:
+      email_placeholder: "identifiant de trouver une organisation via l’URL"
+      suscribe_label_field: Image de profil
+      suscribe: Votre courriel préféré
+    subscribers_list:
+      title: Abonnez-vous à votre email et vous tiendrons au courant
+      message: Suscribirme
+      submit: Titre du message
+  judges:
+    index:
+      no_judges: Ajoute ici votre message
+      new_judge: Envoyer
+    edit:
+      title: Il n’y a pas de juges enregistrés
+    form:
+      name: Agréger juge
+      company_name: Profil
+      email: Nom
+      email-description: Entreprise
+      bio-description: Courrier électronique
+      submit: Courriel de la personne avec laquelle nous sommes en contact
+  members:
+    header: Háblanos un peu plus sur votre organisation, comprend des liens vers les applications, votre portefeuille ou autre que vous estimez que nous devons connaître
+    show:
+      usermenu:
+        hacker-since: Sauvegarder
+        current-challenges: Éditer profil
+        current-brigades: Hacker depuis
+        edit: Problèmes actuels
+      content:
+        biography: Brigades actuels
+        noinfo: Modifier
+        brigades: Biographie
+        projects: On ne dispose pour afficher des informations
+    form:
+      submit: Brigades
+      email-description: Projets
+      name: Actualiser
+      company-name: Courrier électronique où vous recevrez des notifications concernant les défis auxquels sont confrontés les sociaux-démocrates que
+      company-rfc: Nom complet
+      company-president: Nom de la société
+      company-charter: RFC de l’entreprise
+      company-charter-description: Nom du représentant légal
+      github_url: Documents de contrôle
+      github_url-description: PDF avec l’acte constitutif de l’entreprise
+      twitter_url: URL de votre github
+      twitter_url-description: URL complet de votre profil de github
+      facebook_url: URL de votre Twitter
+      facebook_url-description: URL complet de votre profil Twitter
+      bio: URL de votre Facebook
+      bio-description: URL complet de votre profil Facebook
+      avatar: Bio
+      avatar-description: Háblanos un peu plus sur votre organisation, comprend des liens vers les applications, votre portefeuille ou autre que vous estimez que nous devons connaître
+      phase_finish_reminder_setting: Image de profil
+      notification_mailer: Peut être votre photo ou l’image de l’entreprise,
+      select_notifications_that_you_wish_to_receive: "envoi de rappels de proposition au cours de la dernière semaine."
+      show_profile_header: "envoi postal"
+      show_profile_description: Sélectionnez "si vous souhaitez recevoir des courriels de notification"
+      show_profile_label: Afficher publiquement mon profil
+    csv_filename: Sélectionnez si vous souhaitez que votre profil est public.
+    csv_headers:
+      id: Afficher publiquement mon profil
+      name: participants —% -organizacion.csv} {Organization
+      email: ID
+      nickname: Nom
+      created_at: Email
+  entries:
+    defaults:
+      comments: nickname
+      feedback: Date d’enregistrement
+    form:
+      name: Commentaires
+      company-name-description: Retour d’information
+      company-rfc-description: Nom du projet
+      name-description: "nom sous lequel la indentifican, pas nécessairement le nom légal."
+      idea-url: "nous aidera à savoir si elles sont légalement constitués."
+      idea-url-description: Du projet
+      idea-url-description-without-template: Lien vers la proposition
+      technologies: "basándote dans la<a href="%{url}" target="_blank"> Effectifs</a> Monte votre proposition à Slideshare ou Google drive et partage ici l’adresse URL de votre proposition"
+      technologies-description: "passe votre proposition à Slideshare ou Google drive et partage ici l’adresse URL de votre proposition"
+      entry-letter-under-oath: Technologies à utiliser
+      entry-letter-under-oath-description: Python, d3.js, PostgreSQL,.net"
+      image: Sous lettre "manifestation"
+      image-description: /docs.google.com/document/d/184pm6LyKlh_N41P-2g5zo8evRF71ydLtJb_hMGU6Av8/edit?usp=sharing), passe un PDF (3 Mo maximum) contenant une lettre de protestation à vrai dire"
+      description: Image
+      description-description: Gravit une image de page de couverture pour votre projet
+      challenge: "Comment vous en résolvant le problème?"
+      submit: "décrit sous peu votre proposition (max 1000 omble)"
+    show:
+      description: Défi
+      owner: Projet d’envoyer
+      live-demo-url: Description
+      go-to-challenge: Chef de l’équipe
+      link-to-idea: Lien vers le DEMO vif
+      link-to-repository: Aller au défi —% {} Challenge
+      section-name: Lien vers la proposition
+      finalist: Lien vers le registre du code
+      winner: Participants
+      winners: Finaliste
+      how_is_the_challenge_being_solved: Lauréat
+    new:
+      back: Lauréats
+    csv_filename: Comment résoudre le défi?
+    csv_headers:
+      id: Revenir au défi
+      name: propositions -organizacion.csv} Organization {%
+      challenge_title: ID
+      created_at: Nom
+      description: défi
+      idea_url: Date
+      technologies_separated_by_commas: Description
+      member_name: IDEA
+      member_id: technologies
+      member_company: participant
+      member_email: participante_id
+      public?: Entreprise
+  prototypes:
+    form_content:
+      edit_prototype: Email
+      new_prototype: Publié
+    edit:
+      repo_url_description: "prototype’ éditer
+      repo_url: "prototype’ envoyer
+      demo_url_description: "Description du repo"
+      demo_url: "Texte du repo"
+  entries_mailer:
+    entry_accepted:
+      subject: "Description du DEMO"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "Texte du DEMO"
+        other: "bonne fête Pasaste à l’étape suivante"
+      about_x_months:
+        one: environ 1 heure
+        other: près de cent heures Count {}
+      about_x_years:
+        one: environ 1 mois
+        other: environ% Count {} mois
+      almost_x_years:
+        one: environ 1 an
+        other: Quelque cent ans Count {}
+      half_a_minute: près de 1 an
+      less_than_x_minutes:
+        one: près de cent ans Count {}
+        other: une demi-minute
+      less_than_x_seconds:
+        one: moins de 1 minute
+        other: moins de% Count {} minutes
+      over_x_years:
+        one: moins de 1 seconde
+        other: moins de% Count {s}
+      x_days:
+        one: plus d’ 1 an
+        other: plus de cent ans Count {}
+      x_minutes:
+        one: 1 jour
+        other: "% Count {} jours"
+      x_months:
+        one: 1 minute
+        other: "% Count {} minutes"
+      x_seconds:
+        one: 1 mois
+        other: "% Count {} mois"
+    prompts:
+      day: 1 seconde
+      hour: "% Count {} secondes"
+      minute: Jour
+      month: Heure
+      second: Minute
+      year: Mois
+  errors: Deuxième
+    format: Année
+    messages:
+      accepted: &errors
+      after_today: "%% attribute {}} {message"
+      blank: Il doit être accepté
+      confirmation: Doit être issue d’aujourd’hui
+      empty: ne peut rester vide
+      equal_to: et sa confirmation ne coïncident pas
+      even: ne peut pas être vide.
+      exclusion: doit être égal à cent Count {}
+      greater_than: doit être un nombre pair
+      greater_than_or_equal_to: réservé
+      inclusion: doit être supérieur à cent Count {}
+      invalid: La valeur doit être supérieure ou égale% Count {}
+      invalid_date: n’est pas inscrit sur la liste
+      less_than: est-il invalide,
+      less_than_or_equal_to: date invalide
+      less_than_end_date: doit être inférieure à% Count {}
+      less_than_start_date: Elle devrait être inférieure ou égale à cent Count {}
+      not_a_number: doit être inférieure à la date de fin
+      not_an_integer: doit être inférieure à la date de début
+      odd: n’est pas un numéro
+      record_invalid: doit être un entier
+      taken: doit être un nombre non
+      ten_numbers: % errors {}"
+      trip_cannot_be_free: a déjà été pris
+      too_long:
+        one: Vous devez verser 10 caractères
+        other: Le prix du voyage doit être supérieur à $0.00 MXN
+      too_short:
+        one: trop long (max. 1 caractère)
+        other: trop long (max.% Count {} caractères)
+      wrong_length:
+        one: Il est trop court (min 1 caractère)
+        other: Il est trop court (moins% Count {} caractères)
+    template:
+      body: Longueur erronée (doit être de 1 caractère)
+      header:
+        one: Longueur erronée (doit être de% Count {} caractères)
+        other: 
+    url: "Le% {} model n’a pas pu être sauvegardé en raison de 1’ erreur
+  helpers:
+    edit: "Le% {} model n’a pas pu être sauvegardé en raison de% Count {} erreurs"
+    edit_entry: "n’est pas une URL valable"
+    submit_app: Éditer défi
+    collaborate: Proposition éditer
+    send_update: Envoyez votre proposition
+  landing:
+    goal: "regístrate au défi ici"
+    slogan: Envoyer Newsletter
+  number:
+    currency:
+      format:
+        delimiter: Nous réunissons au mieux les talents et les organisations pour mettre en place la nouvelle génération des technologies civique.
+        format: La plateforme pour une nouvelle ère de<span> <em>innovation civique</em> </span>
+        separator: ","
+        unit: "% ou %{N}"
+    format:
+      delimiter: "."
+      separator: $
+    human:
+      decimal_units:
+        format: .
+        units:
+          billion: ","
+          million: "%" ou %{N}
+          quadrillion: milliards
+          thousand: million
+          trillion: Mille milliards
+      storage_units:
+        format: mille
+        units:
+          byte:
+            one: milliards
+            other: "%" ou %{N}
+          gb: Octet
+          kb: Octets
+          mb: GB
+          tb: KB
+  shared:
+    entry:
+      entry-accepted: MB
+    entries:
+      entry_status:
+        entry-accepted: TB
+        entry-invalid: Finaliste
+    show_ranking_summary:
+      entry: Finaliste
+      business: Invalide
+      legal_representative: Proposition
+      email: Entreprises
+      score: Représentant
+      scores: Courrier électronique
+      judge_score: Notation
+    footer:
+      about_us: Notes finales
+      contact_us: Notation propre
+      twitter: Codeando sur le Mexique
+  support:
+    array:
+      last_word_connector: Contactez-nous
+      two_words_connector: Twitter
+      words_connector: "and",
+  time:
+    am: "and"
+    formats:
+      default: ","
+      long: AM
+      short: Z %{s}
+      csv_filename: "M"
+    pm: "M"
+  activemodel:
+    errors:
+      <<: "%{H} M et- mhrs"
+  activerecord:
+    errors:
+      <<: p.m.
+      models:
+        admin:
+          attributes:
+            email:
+              format: Distribution facilitation.md Exemples ansible IMG_4364.jpg bercymail es.rtf es.txt fr.txt merge.sh prefixes.txt translation_fr.yaml errors
+        user:
+          attributes:
+            email:
+              format: Distribution facilitation.md Exemples ansible IMG_4364.jpg bercymail es.rtf es.txt fr.txt merge.sh prefixes.txt translation_fr.yaml errors
+            invalid: est-il invalide,
+    attributes:
+      admin:
+        email: Courrier électronique est invalide
+        password: est-il invalide,
+        password_confirmation: Courrier
+      challenge:
+        about: Mot de passe
+        description: Confirme votre mot de passe
+        pitch: À propos
+        prize: Description
+        title: Brai
+        starts_on: Prix
+        ideas_phase_due_on: Titre
+        ideas_selection_phase_due_on: Date de lancement
+        prototypes_phase_due_on: Date de clôture d’idées
+        finish_on: Date de l’annonce des lauréats
+      collaboration:
+        member_id: Date de clôture de prototypes
+        user_id: Date de l’annonce du lauréat
+      comment:
+        user: Membre
+      entry:
+        description: Utilisateur
+        name: Utilisateur
+        idea_url: Description
+        live_demo_url: Nom
+      member:
+        collaborations: Lien vers la proposition
+      member/user:
+        avatar: "Link’ de la proposition
+        bio: Partenariats
+        email: Utilisateur d’avatar
+      organization/user:
+        bio: Bio d’utilisateur
+        email: Courrier d’utilisateur
+      project:
+        about: Bio d’utilisateur
+        description: Courrier d’utilisateur
+        pitch: À propos
+        title: Description
+      subscriber:
+        email: Brai
+      user:
+        email: Titre
+        password: Courrier
+        password_confirmation: Courrier
+      vote:
+        voteable_id: Mot de passe
+    models:
+      admin: Confirme votre mot de passe
+      challenge: Voteable
+      collaboration: ADMIN
+      comment: Défi
+      entry: Coopération
+      member: Commentaire
+      organization: Projet
+      project: Membre
+      subscriber: Organisation
+      user: Projet
